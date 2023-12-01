@@ -315,6 +315,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c09753161f8734748b24c90ccde9c6f0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1122971976}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c09753161f8734748b24c90ccde9c6f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1122971978}
   m_SourcePrefab: {fileID: 100100000, guid: c09753161f8734748b24c90ccde9c6f0, type: 3}
 --- !u!1 &361207361
 GameObject:
@@ -730,6 +733,27 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.37, z: 0.55}
+--- !u!95 &1122971978
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122971974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a6e1b293f7ed5584fa548ddde966e03e, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1315712210
 GameObject:
   m_ObjectHideFlags: 3
@@ -1309,7 +1333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794800111}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2777018, y: 0.4001269, z: -0.12862895, w: 0.8638488}
+  m_LocalRotation: {x: 0.27770182, y: 0.40012696, z: -0.12862895, w: 0.8638488}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
